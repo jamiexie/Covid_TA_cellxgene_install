@@ -44,5 +44,5 @@ Open a finder window right next to the terminal window. Select the h5ad file in 
 
 Any annotations you make in cellxgene will save in a csv file in your working directory and then we can merge the annotations back into the object afterwards.
 
-## Close cellxgene when finished!
+## 8. Close cellxgene when finished!
 *press* ctrl+c
