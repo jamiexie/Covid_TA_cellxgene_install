@@ -19,6 +19,7 @@ python --version
 
 ## 4. Install python dependencies
 pip install scanpy
+
 pip install louvain
 
 ## 5. Install cellxgene
