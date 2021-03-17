@@ -43,3 +43,6 @@ cellxgene launch [path-to-your-object/name-object.h5ad] --experimental-enable-re
 Open a finder window right next to the terminal window. Select the h5ad file in finder and drag it to terminal.
 
 Any annotations you make in cellxgene will save in a csv file in your working directory and then we can merge the annotations back into the object afterwards.
+
+## Close cellxgene when finished!
+*press* ctrl+c
