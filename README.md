@@ -4,6 +4,8 @@ Modeling after Angela Pisco's tutorial: https://github.com/czbiohub/cellxgene-tr
 Cellxgene documentation for reference:
 https://chanzuckerberg.github.io/cellxgene/posts/install
 
+*Make sure you have Google Chrome working on your computer*
+
 Assuming you're working from a clean MacOS environment:
 ## 1. Install Anaconda
 Download: https://www.anaconda.com/products/individual
