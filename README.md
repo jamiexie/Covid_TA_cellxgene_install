@@ -11,6 +11,7 @@ https://chanzuckerberg.github.io/cellxgene/posts/install
 Assuming you're working from a clean MacOS environment:
 ## 1. Install Anaconda
 Download: https://www.anaconda.com/products/individual
+
 Installation instructions: https://docs.anaconda.com/anaconda/install/mac-os/
 
 ## 2. Open terminal
