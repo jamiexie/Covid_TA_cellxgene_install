@@ -31,7 +31,7 @@ Save .h5ad files to your folder of choice.
 ## 7. Open h5ad in cellxgene
 This is the step you will do every time you want to use cellxgene
 
-cellxgene launch [path-to-your-object/name-object.h5ad] --experimental-annotations-ontology --experimental-enable-reembedding --open
+cellxgene launch [path-to-your-object/name-object.h5ad] --open
 
 *Trick to launch h5ad if you don't know the specific path*:
 Open a finder window right next to the terminal window. Select the h5ad file in finder and drag it to terminal.
