@@ -1,5 +1,6 @@
 # Covid_TA_cellxgene_install
 Installation instructions for COVID TA project
+
 Modeling after Angela Pisco's tutorial: https://github.com/czbiohub/cellxgene-training
 Cellxgene documentation for reference:
 https://chanzuckerberg.github.io/cellxgene/posts/install
@@ -31,7 +32,7 @@ https://drive.google.com/drive/u/0/folders/1rCXJjCX5fN2_7YH2k-hmjGF7WUGEbo3Q
 Save .h5ad files to your folder of choice.
 
 ## 7. Open h5ad in cellxgene
-This is the step you will do every time you want to use cellxgene
+*This is the step you will do every time you want to use cellxgene*
 
 cellxgene launch [path-to-your-object/name-object.h5ad] --experimental-enable-reembedding --open
 
