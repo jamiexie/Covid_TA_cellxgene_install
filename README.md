@@ -5,34 +5,34 @@ Cellxgene documentation for reference:
 https://chanzuckerberg.github.io/cellxgene/posts/install
 
 Assuming you're working from a clean MacOS environment:
-## Install Anaconda
+## 1. Install Anaconda
 Download: https://www.anaconda.com/products/individual
 Installation instructions: https://docs.anaconda.com/anaconda/install/mac-os/
 
-## Open terminal
+## 2. Open terminal
 Spotlight search (command+space bar): terminal
 
-## Check conda installation is successful
+## 3. Check conda installation is successful
 which conda
 
-## Create a conda environment for cellxgene
+## 4. Create a conda environment for cellxgene
 conda create -n cellxgene python=3.8.2
 
-## Activate conda environment
+## 5. Activate conda environment
 conda activate cellxgene
 
-## Install python dependencies
+## 6. Install python dependencies
 pip install scanpy
 pip install louvain
 
-## Install cellxgene
+## 7. Install cellxgene
 pip install cellxgene
 
-## Download h5ad files (using colon/ileum as example):
+## 8. Download h5ad files (using colon/ileum as example):
 https://drive.google.com/drive/u/0/folders/1rCXJjCX5fN2_7YH2k-hmjGF7WUGEbo3Q
 Save .h5ad files to your folder of choice.
 
-## Open h5ad in cellxgene
+## 9. Open h5ad in cellxgene
 cellxgene launch [path-to-your-object/name-object.h5ad] --experimental-annotations-ontology --experimental-enable-reembedding --open
 
 *Trick to launch h5ad if you don't know the specific path*:
