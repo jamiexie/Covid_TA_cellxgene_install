@@ -28,7 +28,7 @@ pip install louvain
 ## 5. Install cellxgene
 pip install cellxgene
 
-## 6. Download h5ad files (using colon/ileum as example):
+## 6. Download h5ad files:
 https://drive.google.com/drive/u/0/folders/1rCXJjCX5fN2_7YH2k-hmjGF7WUGEbo3Q
 
 Save .h5ad files to your folder of choice. This folder will contain your annotations from cellxgene so make sure you know where it is!
