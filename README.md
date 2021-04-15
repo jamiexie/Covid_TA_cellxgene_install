@@ -31,10 +31,14 @@ pip install cellxgene
 ## 6. Download h5ad files (using colon/ileum as example):
 https://drive.google.com/drive/u/0/folders/1rCXJjCX5fN2_7YH2k-hmjGF7WUGEbo3Q
 
-Save .h5ad files to your folder of choice.
+Save .h5ad files to your folder of choice. This folder will contain your annotations from cellxgene so make sure you know where it is!
 
-## 7. Open h5ad in cellxgene
+## 7. Navigate to folder where you have saved .h5ad files and open h5ad in cellxgene
 *This is the step you will do every time you want to use cellxgene*
+
+For example, if my .h5ad is in ~/Documents/COVID_TA:
+
+cd ~/Documents/COVID_TA
 
 cellxgene launch [path-to-your-object/name-object.h5ad] --experimental-enable-reembedding --open
 
