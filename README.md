@@ -17,23 +17,20 @@ Installation instructions: https://docs.anaconda.com/anaconda/install/mac-os/
 ## 2. Open terminal
 Spotlight search (command+space bar): terminal
 
-## 3. Check python version is 3.8
-python --version
-
-## 4. Install python dependencies
+## 3. Install python dependencies
 pip install scanpy
 
 pip install louvain
 
-## 5. Install cellxgene
+## 4. Install cellxgene
 pip install cellxgene
 
-## 6. Download h5ad files:
+## 5. Download h5ad files:
 https://drive.google.com/drive/u/0/folders/1rCXJjCX5fN2_7YH2k-hmjGF7WUGEbo3Q
 
 Save .h5ad files to your folder of choice. This folder will contain your annotations from cellxgene so make sure you know where it is!
 
-## 7. Navigate to folder where you have saved .h5ad files and open h5ad in cellxgene
+## 6. Navigate to folder where you have saved .h5ad files and open h5ad in cellxgene
 *This is the step you will do every time you want to use cellxgene*
 
 For example, if my .h5ad is in ~/Documents/COVID_TA:
@@ -48,5 +45,5 @@ Open a finder window right next to the terminal window. Select the h5ad file in 
 
 Any annotations you make in cellxgene will save in a csv file in your working directory and then we can merge the annotations back into the object afterwards.
 
-## 8. Close cellxgene when finished!
+## 7. Close cellxgene when finished!
 *press* ctrl+c
